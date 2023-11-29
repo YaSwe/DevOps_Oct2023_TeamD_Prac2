@@ -5,4 +5,4 @@
 
 <br>
 
-**Screenshots of test cases**: [Screenshots Folder](./screenshots)
+**Screenshots of test cases**: [Screenshots Folder](./Screenshots)
