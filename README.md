@@ -2,3 +2,7 @@
 
 **Click on Google Play Installation Link** - YaSwe <br>
 **Check return policy** - YaSwe
+
+<br>
+
+**Screenshots of test cases**: [Screenshots Folder](./screenshots)
