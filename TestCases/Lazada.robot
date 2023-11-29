@@ -4,7 +4,7 @@ Resource    variables.robot
 Documentation  This is the documentation of the test cases suite
 
 *** Test Cases ***
-Click On Google Play Installation Link
+Google Play Installation Link
     [Documentation]    Click on Apple store link to download the Lazada app
     Open Browser    ${url}    chrome
     # Maximize window
@@ -35,7 +35,7 @@ Check Return Policy
     # Click on search button
     Click Element    css = ._3X5JK
     # Click on first result
-    Click Element    xpath = xpath=//div[@data-spm="search-result"]//a[1]
+    Click Element    xpath = //div[@data-spm="search-result"]//a[1]
     Close Browser
 
     
