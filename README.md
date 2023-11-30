@@ -1,10 +1,14 @@
 ## DevOps_Oct2023_TeamD_Prac2
 
 **Click on Google Play Installation Link** - YaSwe <br>
-**Check return policy** - YaSwe
+**Check return policy** - YaSwe <br>
 
-**Search for hydroflasks** - Bryan
-**Find Capcom games from preferred sellers on Nintendo Switch** - Bryan
+**Check Search Feature is working** - Julius <br>
+**Check Phone Case Link is navigated in side menu** - Julius <br>
+
+
+**Search for hydroflasks** - Bryan <br>
+**Find Capcom games from preferred sellers on Nintendo Switch** - Bryan <br>
 
 <br>
 
