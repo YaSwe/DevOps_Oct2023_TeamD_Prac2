@@ -37,5 +37,53 @@ Check Return Policy
     # Click on first result
     Click Element    xpath = //div[@data-spm="search-result"]//a[1]
     Close Browser
+Check Phone Cases is navigated through side menu links
+    [Documentation]    Check the working of the Navbar
+    Open Browser    ${url}    chrome
+    # Maximize window
+    Maximize Browser Window
+    # Hover to first Element in Navbar
+    Hover Over Navbar Element    /html/body/section/div/div/div/div/div[2]/div/div[1]/div/div[1]/div/div[1]
+    #Hover to the next element which appears on the side menu
+    Hover Over Navbar Element    /html/body/section/div/div/div/div/div[2]/div/div[1]/div/div[1]/div[2]/div[1]/a
+    #Click Phone Cases on the side menu
+    Click Element    xpath=//span[@id="9543"]
+    # Wait for page to load 
+    Sleep    2s
+    # Get the current URL
+    ${current_url} =    Get Location
+    # Assert that the current URL contains the expected part
+    Should Contain    ${current_url}    https://www.lazada.sg/shop-phone-cases/?spm=a2o42
+    Capture Page Screenshot
+    Sleep    3s
+    Close Browser
+
+
+Check Search Bar features
+    [Documentation]    Click on Terms & Condition
+    Open Browser    ${url}    chrome
+    # Maximize window
+    Maximize Browser Window
+    # Input "Clothes" in the search bar
+    Input Text    xpath=//*[@id="q"]    Clothes
+    # Click on the search button
+    Click Element    xpath=//button[@class="search-box__button--1oH7"]
+    # Wait for the page to load
+    Sleep    10s
+    # Get the current URL
+    ${current_url} =    Get Location
+    # Assert that the current URL contains the expected part
+    Should Contain    ${current_url}    https://www.lazada.sg/catalog/?q=Clothes
+    Capture Page Screenshot
+    Sleep    3s
+    Close Browser
+
+*** Keywords ***
+Hover Over Navbar Element
+    [Arguments]    ${xpath}
+    ${element} =    Get WebElement    xpath=${xpath}
+    Mouse Over    ${element}
+    # Optionally, you can wait for a moment to observe the hover effect
+    Sleep    2s
 
     
