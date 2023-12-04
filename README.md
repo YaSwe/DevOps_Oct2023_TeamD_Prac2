@@ -10,6 +10,9 @@
 **Search for hydroflasks** - Bryan <br>
 **Find Capcom games from preferred sellers on Nintendo Switch** - Bryan <br>
 
+**Login without any login details** - Joey <br>
+**Clicking on the vouchers button** - Joey <br>
+
 <br>
 
 **Screenshots of test cases**: [Screenshots Folder](./Screenshots)
